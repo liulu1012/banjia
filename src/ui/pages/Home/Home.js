@@ -28,6 +28,50 @@ class Home extends React.Component{
 				<div><h3>4</h3></div>
 			</Carousel>
         </div>
+                <div className="wrap1">
+                    <div className="tile"> 
+                        <img src={logo}/>
+                        <div className="text">
+                            <h1>标准双人间</h1>
+                            <h2 className="animate-text">商务出差家庭出游侣蜜月</h2>
+                            <p className="animate-text">面积：22-25㎡<br />规格：两张1m*2m的单人床/一张2m*2m的情侣大床<br/>设备：高速wifi、液晶电视、空调、独立卫生间、24小时热水供应、烧水设备等</p>
+                            <div className="dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="tile"> 
+                        <img src={logo}/>
+                        <div className="text">
+                            <h1>温馨三人间</h1>
+                            <h2 className="animate-text">三口之家、朋友聚会</h2>
+                            <p className="animate-text">面积：22-25㎡<br />规格：一张1m*2m的单人床+一张2m*2m的大床<br />设备：高速wifi、液晶电视、空调、独立卫生间、24小时热水供应、烧水设备等 </p>
+                            <div className="dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="tile"> 
+                        <img src={logo}/>
+                        <div className="text">
+                            <h1>家庭四人间</h1>
+                            <h2 className="animate-text">闺蜜出行、家庭经济出游</h2>
+                            <p className="animate-text">面积：22-25㎡<br />规格：两张2m*2m的大床<br />设备：高速wifi、液晶电视、空调、独立卫生间、24小时热水供应、烧水设备等 </p>
+                            <div className="dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         <div className='ten'>
         	<div className='renzheng'>
         		<h2>优质搬家公司</h2>

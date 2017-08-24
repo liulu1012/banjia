@@ -12,32 +12,59 @@ class Paomadeng extends React.Component{
 			data:0
 		}
 	}
+	D = () => {
+		let data = this.state.data
+		if(data===this.sinner.length){
+			this.setState({data:0})
+		}else{
+			this.setState({data:data+1})
+		}
+		if(data<21){
+			let left = data*-280+'px'
+			this.sinner.style.marginLeft = left
+		}else{
+			this.sinner.style.marginLeft=0
+		}
+	}
+	componentDidMount(){
+		setInterval(this.D,500)
+	}
   render(){
+
     return (
       <div className=''>
         Paomadeng
         	<div className="str-wrap">
-        		<div className="str-inner">
-					<img src={jpg5} alt='1'/>
-					<img src={jpg2}  alt='1'/>
-					<img src={jpg3} alt='1' />
-					<img src={jpg4} alt='1' />
-					<img src={jpg5} alt='1' />
-					<img src={jpg4} alt='1' />
-					<img src={jpg2} alt='1' />
-					<img src={jpg3} alt='1' />
-					<img src={jpg4} alt='1' />
-					<img src={jpg5} alt='1' />
-					<img src={jpg3} alt='1' />
-					<img src={jpg2} alt='1' />
-					<img src={jpg3} alt='1' />
-					<img src={jpg4} alt='1' />
-					<img src={jpg5} alt='1' />
-					<img src={jpg4} alt='1' />
-					<img src={jpg3}  alt='1'/>
-					<img src={jpg2}  alt='1'/>
-					<img src={jpg3}  alt='1'/>
-        		</div>
+        			<div className="str-inner" ref={div => this.sinner = div} style={this.state.style}>
+        				<img src={jpg5} alt='1'/>
+        				<img src={jpg5} alt='1'/>
+        				<img src={jpg5} alt='1'/>
+						<img src={jpg5} alt='1'/>
+						<img src={jpg2}  alt='1'/>
+						<img src={jpg3} alt='1' />
+						<img src={jpg4} alt='1' />
+						<img src={jpg5} alt='1' />
+						<img src={jpg4} alt='1' />
+						<img src={jpg2} alt='1' />
+						<img src={jpg3} alt='1' />
+						<img src={jpg4} alt='1' />
+						<img src={jpg5} alt='1' />
+						<img src={jpg3} alt='1' />
+						<img src={jpg2} alt='1' />
+						<img src={jpg3} alt='1' />
+						<img src={jpg4} alt='1' />
+						<img src={jpg5} alt='1' />
+						<img src={jpg4} alt='1' />
+						<img src={jpg3}  alt='1'/>
+						<img src={jpg2}  alt='1'/>
+						<img src={jpg3}  alt='1'/>
+						<img src={jpg2}  alt='1'/>
+						<img src={jpg3}  alt='1'/>
+						<img src={jpg2}  alt='1'/>
+						<img src={jpg3}  alt='1'/>
+						<img src={jpg2}  alt='1'/>
+						<img src={jpg3}  alt='1'/>
+        			</div>
 		    </div>
       </div>    
     )
