@@ -14,31 +14,46 @@ class Paomadeng extends React.Component{
       <div className=''>
         Paomadeng
         <Carousel autoplay slidesToShow={7} slidesToScroll={1}>
-        	<Card  bodyStyle={{padding:0}}>
-					<img src={jpg5} alt='1' width='100%'/>       		
+        	<Card  bodyStyle={{padding:0}} style={{height:'380px'}}>
+				<div className="custom-image jpg1">
+					 
+				</div>     		
         	</Card>
-
-				<div>
-					<img src={jpg5} alt='1'/>
-				</div>
-				<div>
-					<img src={jpg5} alt='1'/>
-				</div>
-				<div>
-					<img src={jpg5} alt='1'/>
-				</div>
-				<div>
-					<img src={jpg5} alt='1'/>
-				</div>
-				<div>
-					<img src={jpg5} alt='1'/>
-				</div>
-				<div>
-					<img src={jpg5} alt='1'/>
-				</div>
-				<div>
-					<img src={jpg5} alt='1'/>
-				</div>
+        	<Card  bodyStyle={{padding:0}} style={{height:'380px'}}>
+				<div className="custom-image jpg2">
+					 
+				</div>     		
+        	</Card>
+        	<Card  bodyStyle={{padding:0}} style={{height:'380px'}}>
+				<div className="custom-image jpg3">
+					 
+				</div>     		
+        	</Card>
+        	<Card  bodyStyle={{padding:0}} style={{height:'380px'}}>
+				<div className="custom-image jpg4">
+					 
+				</div>     		
+        	</Card>
+        	<Card  bodyStyle={{padding:0}} style={{height:'380px'}}>
+				<div className="custom-image jpg5">
+					 
+				</div>     		
+        	</Card>
+        	<Card  bodyStyle={{padding:0}} style={{height:'380px'}}>
+				<div className="custom-image jpg6">
+					 
+				</div>     		
+        	</Card>
+        	<Card  bodyStyle={{padding:0}} style={{height:'380px'}}>
+				<div className="custom-image jpg7">
+					 
+				</div>     		
+        	</Card>
+        	<Card  bodyStyle={{padding:0}} style={{height:'380px'}}>
+				<div className="custom-image jpg8">
+					 
+				</div>     		
+        	</Card>
 			</Carousel>
       </div>    
     )

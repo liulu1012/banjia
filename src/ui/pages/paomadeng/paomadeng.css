@@ -1,9 +1,50 @@
 
 
-.antd-card-body{
-	width: 280px;
+.custom-image{
 	height: 500px;
-	border:10px solid blue
+
 }
+
+.jpg1{
+	background-image: url('1.jpg');
+	background-size: 100% 100%;	
+}
+
+.jpg2{
+	background-image: url('2.jpg');
+	background-size: 100% 100%;	
+}
+.jpg3{
+	background-image: url('3.jpg');
+	background-size: 100% 100%;	
+}
+.jpg4{
+	background-image: url('4.jpg');
+	background-size: 100% 100%;	
+}
+.jpg5{
+	background-image: url('5.jpg');
+	background-size: 100% 100%;	
+}
+.jpg6{
+	background-image: url('1.jpg');
+	background-size: 100% 100%;	
+}
+.jpg7{
+	background-image: url('2.jpg');
+	background-size: 100% 100%;	
+}
+.jpg8{
+	background-image: url('3.jpg');
+	background-size: 100% 100%;	
+}
+.jpg4{
+	background-image: url('4.jpg');
+	background-size: 100% 100%;	
+}
+
+
+
+
 
 
