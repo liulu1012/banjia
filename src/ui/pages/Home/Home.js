@@ -28,94 +28,22 @@ class Home extends React.Component{
 				<div><h3>4</h3></div>
 			</Carousel>
         </div>
-        <div className="wrap1">
-            <div className="tile"> 
-                <img src={logo}/>
-                <div className="text">
-                    <h1>个人搬家</h1>
-                    <h2 className="animate-text">个人</h2>
-                    <p className="animate-text">个人</p>
-                    <div className="dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div className="tile"> 
-                <img src={logo}/>
-                <div className="text">
-                    <h1>企业搬家</h1>
-                    <h2 className="animate-text">企业</h2>
-                    <p className="animate-text">企业</p>
-                    <div className="dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-
-            <div className="tile"> 
-                <img src={logo}/>
-                <div className="text">
-                    <h1>空调移机</h1>
-                    <h2 className="animate-text">空调</h2>
-                    <p className="animate-text">空调</p>
-                    <div className="dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="wrap1">
-            <div className="tile"> 
-                <img src={logo}/>
-                <div className="text">
-                    <h1>个人搬家</h1>
-                    <h2 className="animate-text">个人</h2>
-                    <p className="animate-text">个人</p>
-                    <div className="dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div className="tile"> 
-                <img src={logo}/>
-                <div className="text">
-                    <h1>企业搬家</h1>
-                    <h2 className="animate-text">企业</h2>
-                    <p className="animate-text">企业</p>
-                    <div className="dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-
-            <div className="tile"> 
-                <img src={logo}/>
-                <div className="text">
-                    <h1>空调移机</h1>
-                    <h2 className="animate-text">空调</h2>
-                    <p className="animate-text">空调</p>
-                    <div className="dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </div>
+       <div className='serve'>
+           <h1>服务类别</h1>
+           <h3>神马都不留，一个电话搬地球</h3>
+           <div>
+               <div>居民搬家</div>
+               <div>办公室搬迁</div>
+               <div>长途搬家</div>
+               <div>空调移机</div>
+           </div>
+           <div>
+               <div>起重服务</div>
+               <div>家具拆装</div>
+               <div>保洁家政</div>
+               <div>仓储服务</div>
+           </div>
+       </div>
         <div className='ten'>
         	<div className='renzheng'>
         		<h2>优质搬家公司</h2>
