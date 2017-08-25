@@ -1,16 +1,9 @@
 
 
-.str-wrap{
-	width: 100%;
-	overflow: hidden;
-}
-.str-inner{
-	display: flex;
-	width: 100%;
-} 
-.str-inner>img{
-	width: 12.5%;
-	height: 380px;
+.antd-card-body{
+	width: 280px;
+	height: 500px;
+	border:10px solid blue
 }
 
 
