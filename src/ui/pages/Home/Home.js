@@ -7,6 +7,7 @@ import show from './show.jpg'
 import { Carousel } from 'antd'
 
 import Paomadeng from '../paomadeng/Paomadeng.js'
+import Serve from '../Serve/Serve'
 
 class Home extends React.Component{
   render(){
@@ -28,22 +29,7 @@ class Home extends React.Component{
 				<div><h3>4</h3></div>
 			</Carousel>
         </div>
-       <div className='serve'>
-           <h1>服务类别</h1>
-           <h3>神马都不留，一个电话搬地球</h3>
-           <div>
-               <div>居民搬家</div>
-               <div>办公室搬迁</div>
-               <div>长途搬家</div>
-               <div>空调移机</div>
-           </div>
-           <div>
-               <div>起重服务</div>
-               <div>家具拆装</div>
-               <div>保洁家政</div>
-               <div>仓储服务</div>
-           </div>
-       </div>
+        <Serve />
         <div className='ten'>
         	<div className='renzheng'>
         		<h2>优质搬家公司</h2>
