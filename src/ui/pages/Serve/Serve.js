@@ -1,11 +1,10 @@
   import React from 'react'
   import './serve.css'
-  import eot from './iconfont.eot'
-  import woff from './iconfont.woff'
-  import ttf from './iconfont.ttf'
-  import svg from './iconfont.svg'
-
-  import { Row,Col }from 'antd'
+  import  './iconfont.eot'
+  import './iconfont.woff'
+  import './iconfont.ttf'
+  import './iconfont.svg'
+import { Row ,Col} from 'antd'
 
   class Serve extends React.Component{
   render(){
@@ -16,9 +15,7 @@
 			   <h3>神马都不留，一个电话搬地球</h3>
 				<Row type="flex" justify="space-around">
 					<Col span={4}>
-						<div>
 						<i className='iconfont jumin'></i>
-						</div>
 					</Col>
 					<Col span={4}>
 						<i className='iconfont jumin'></i>
