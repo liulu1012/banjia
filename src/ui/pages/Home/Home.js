@@ -2,14 +2,15 @@ import React from 'react'
 import './home.css'
 import logo from './logo.png'
 import banjia from './banjia.jpg'
-import show from './show.jpg'
 import banner1 from './1.jpg'
 import banner2 from './2.jpg'
 import banner3 from './3.jpg'
 import banner4 from './4.jpg'
 
+
 import { Carousel } from 'antd'
 
+import ShowPic from '../ShowPic/ShowPic'
 import Paomadeng from '../paomadeng/Paomadeng.js'
 import Serve from '../Serve/Serve'
 
@@ -42,33 +43,7 @@ class Home extends React.Component{
 			</Carousel>
         </div>
         <Serve />
-
-        <div className='fuwu'>
-        	<h1 className='title'>服务类别</h1>
-        	<h3 className='solgan'>神马都不留，一个电话搬地球</h3>
-        	<ul className='fuwu-nav'>
-        		<li>全部</li>
-        		<li>个人搬家</li>
-        		<li>公司搬家</li>
-        		<li>长途搬家</li>
-        		<li>空调移机</li>
-        		<li>家具家电</li>
-        	</ul>
-        	<div className='show-wrap'>
-        		<div className='show'>
-        			<img src={show} alt="" />
-        		</div>
-        		<div className='show'>
-        			<img src={show} alt="" />
-        		</div>
-        		<div className='show'>
-        			<img src={show} alt="" />
-        		</div>
-        		<div className='show'>
-        			<img src={show} alt="" />
-        		</div>
-        	</div>
-        </div>
+        <ShowPic />
         <div className='intro-wrap'>
         	<div className='intro'>
 	          	<div className='user'>

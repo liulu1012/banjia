@@ -11,8 +11,8 @@ import { Row ,Col} from 'antd'
     return (
     	<div className='serve-wrap'>
 			<div className='serve'>
-			   <h1>服务类别</h1>
-			   <h3>神马都不留，一个电话搬地球</h3>
+				<h1 className='title'>服务类别</h1>
+				<h3 className='solgan'>神马都不留，一个电话搬地球</h3>
 				<Row type="flex" justify="space-around">
 					<Col span={6}>
 						<i className='iconfont iconFont geren'>

@@ -6,10 +6,20 @@
 	margin: 0 auto;
 }
 .serve>*{
-	border: 1px solid red;
 	text-align: center;
 }
-
+.title{
+	font-size: 30px;
+	text-align: center;
+	color:#2a333c;
+	margin-top: 50px;
+}
+.solgan{
+	text-align: center;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+}
 @font-face {
   font-family: 'iconfont';
   src: url('./iconfont.eot');
