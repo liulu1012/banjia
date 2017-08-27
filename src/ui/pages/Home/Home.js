@@ -3,6 +3,10 @@ import './home.css'
 import logo from './logo.png'
 import banjia from './banjia.jpg'
 import show from './show.jpg'
+import banner1 from './1.jpg'
+import banner2 from './2.jpg'
+import banner3 from './3.jpg'
+import banner4 from './4.jpg'
 
 import { Carousel } from 'antd'
 
@@ -23,10 +27,18 @@ class Home extends React.Component{
         </div>
         <div className='banner'>
 			<Carousel autoplay>
-				<div><h3>1</h3></div>
-				<div><h3>2</h3></div>
-				<div><h3>3</h3></div>
-				<div><h3>4</h3></div>
+				<div>
+                    <img src={banner1} alt="banner1" />            
+                </div>
+				<div>
+                    <img src={banner2} alt="banner2" />            
+                </div>
+				<div>
+                    <img src={banner3} alt="banner3" />            
+                </div>
+				<div>
+                    <img src={banner4} alt="banner4" />            
+                </div>
 			</Carousel>
         </div>
         <Serve />
