@@ -12,8 +12,7 @@ class Paomadeng extends React.Component{
 
     return (
       <div className=''>
-        Paomadeng
-        <Carousel autoplay slidesToShow={6} slidesToScroll={1}>
+        <Carousel autoplay slidesToShow={6} slidesToScroll={1} dots={false}>
         	<Card  bodyStyle={{padding:0}} style={{height:'380px'}}>
 				<div className="custom-image jpg1">
 					 

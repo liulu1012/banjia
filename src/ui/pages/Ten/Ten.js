@@ -1,5 +1,6 @@
 import React from 'react'
 import banjia from './banjia.jpg'
+import './ten.css'
 
 class Ten extends React.Component{
 	render(){

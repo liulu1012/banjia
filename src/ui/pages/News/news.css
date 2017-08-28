@@ -1,0 +1,49 @@
+.intro-wrap{
+	margin-top: 40px;
+}
+.intro{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-around;
+}
+.user{
+	width: 25%;
+	border:1px solid red;
+}
+.user>h3,.news>h3,.intro-tel>h3{
+	font-size: 16px;
+	border-left: 3px solid #82DEF1;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-indent: 5px
+}
+.intro-nav{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.intro-nav>ul{
+	display: flex;
+	justify-content:space-around;
+	margin-top: 20px;	
+}
+.intro-nav>ul>li{
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.intro-tel{
+	width: 25%;
+	border: 1px solid red;
+}
+.news{
+	width: 45%;
+	border: 1px solid blue;
+}
+
+.car{
+	border: 1px solid red;
+	margin-top: 30px;
+}

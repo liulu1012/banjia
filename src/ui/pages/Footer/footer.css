@@ -1,20 +1,102 @@
 .footer{
 	background-image: url('./footer-bg.png');
-	margin-top: 30px;
-}
-.footer-inner{
-	width: 40%;
-	margin: 0 auto;
-}
-.ant-col-4{
-	text-align: center;
-	color: #f1f1f1;
-	border-right:1px solid #ccc;
-}
-.last{
-	border: 0
+	margin-top: 50px;
 }
 .footer-bottom{
 	width: 60%;
 	margin: 0 auto;
+}
+.ant-tabs-nav-container{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.ant-tabs-content{
+	height: 300px;
+}
+
+.guanyu{
+	text-indent: 25px;
+	margin-top: 16px;
+}
+.guanyu p{
+	color: #ccc;
+}
+
+
+
+@font-face {
+  font-family: 'footer';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+.footerIcon{
+  font-family:"footer" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fIcon{
+	font-size: 50px;
+	color: #ccc;
+}
+.txt{
+	padding-left: 14px;
+	font-size: 16px;
+	color: #ccc;
+	line-height: 50px;
+	text-shadow: 1px;
+}
+
+.lianxi{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.lianxi-inner>h2{
+	color: #ccc;
+	text-shadow: 1px;
+	text-align: center; 
+}
+.footerImg{
+	display: flex;
+	justify-content: space-around;
+}
+.footerImg>div{
+	width: 160px;
+	height: 160px;
+	margin: 20px 10px;
+}
+.footerImg>div img{
+	width: 100%;
+	height: 100%;
+}
+.footerImg>div h4{
+	text-align: center;
+	color: #ccc;
+	text-shadow: 1px;
+	line-height: 20px;
+}
+
+.hezuo{
+	text-align: center;
+	margin-top: 30px;
+	color: #ccc;
+}
+.hezuo span{
+	font-style:oblique;
+}
+.hezuo p{
+	font-size: 16px;
+	line-height: 30px;
+	text-shadow: 3px;
+}
+.first{
+	margin-top: 20px;
 }

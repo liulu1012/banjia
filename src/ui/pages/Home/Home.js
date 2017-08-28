@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import logo from './logo.png'
+
 
 import banner1 from './1.jpg'
 import banner2 from './2.jpg'
@@ -10,9 +10,11 @@ import banner4 from './4.jpg'
 
 import { Carousel } from 'antd'
 
+import Header from '../Header/Header'
 import ShowPic from '../ShowPic/ShowPic'
 import Paomadeng from '../paomadeng/Paomadeng.js'
 import Serve from '../Serve/Serve'
+import News from '../News/News'
 import Ten from '../Ten/Ten'
 import Footer from '../Footer/Footer'
 
@@ -20,14 +22,7 @@ class Home extends React.Component{
   render(){
     return (
       <div className='home-wrap'>
-        <div className='home-top'>
-        	<div className='logo'>
-        		<img src={logo} />
-        	</div>
-        	<div className='tel'>
-				11111111
-        	</div>
-        </div>
+        <Header />
         <div className='banner'>
 			<Carousel autoplay>
 				<div>
@@ -45,39 +40,11 @@ class Home extends React.Component{
 			</Carousel>
         </div>
         <Serve />
-        <Ten />
         <ShowPic />
-        <div className='intro-wrap'>
-        	<div className='intro'>
-	          	<div className='user'>
-	        		<h3>搬家助手</h3>
-	        		<div className='intro-nav'>
-	        			<ul>
-	        				<li>搬家合同</li>
-	        				<li>搬家须知</li>
-	        			</ul>
-	        			<ul>
-	        				<li>搬家价格</li>
-	        				<li>搬家咨询</li>
-	        			</ul>
-	        			<ul>
-	        				<li>搬家投诉</li>
-	        				<li>搬家吉日</li>
-	        			</ul>
-	        			<ul>
-	        				<li>搬家预约</li>
-	        				<li>车辆介绍</li>
-	        			</ul>
-	        		</div>
-	        	</div>
-	        	<div className='intro-tel'></div>
-	        	<div className='news'>
-	        		<h3>相关新闻</h3>
-	        	</div>      		
-        	</div>
-        </div>
+        <News />
         <div className='car'>
-        	<h3>车辆展示</h3>
+        	<h1>车辆展示</h1>
+            <h3>因为专业，所以安心</h3>
         	<div>
         		<Paomadeng />
         	</div>
