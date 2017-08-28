@@ -1,6 +1,7 @@
   import React from 'react'
 
   import './news.css'
+  import {Link} from 'react-router-dom'
 
   class News extends React.Component{
   render(){
@@ -11,20 +12,20 @@
 	        		<h3>搬家助手</h3>
 	        		<div className='intro-nav'>
 	        			<ul>
-	        				<li>搬家合同</li>
-	        				<li>搬家须知</li>
+	        				<li><Link to='/zhushou'>搬家合同</Link></li>
+	        				<li><Link to='/zhushou'>搬家须知</Link></li>
 	        			</ul>
 	        			<ul>
-	        				<li>搬家价格</li>
-	        				<li>搬家咨询</li>
+	        				<li><Link to='/zhushou'>搬家价格</Link></li>
+	        				<li><Link to='/zhushou'>搬家咨询</Link></li>
 	        			</ul>
 	        			<ul>
-	        				<li>搬家投诉</li>
-	        				<li>搬家吉日</li>
+	        				<li><Link to='/zhushou'>搬家投诉</Link></li>
+	        				<li><Link to='/zhushou'>搬家吉日</Link></li>
 	        			</ul>
 	        			<ul>
-	        				<li>搬家预约</li>
-	        				<li>车辆介绍</li>
+	        				<li><Link to='/zhushou'>搬家预约</Link></li>
+	        				<li><Link to='/zhushou'>车辆介绍</Link></li>
 	        			</ul>
 	        		</div>
 	        	</div>

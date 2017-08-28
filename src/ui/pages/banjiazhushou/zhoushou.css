@@ -1,0 +1,31 @@
+.ant-tabs-content{
+	height: 100vh;
+	border: 1px solid red;
+}
+.hetong{
+	width: 60%;
+	margin: 0 auto;
+}
+.hetong h1{
+	text-align: center;
+	line-height: 100px;
+}
+
+.hetong>h2,.hetong>h3{
+	display: flex;
+	justify-content: space-around;
+	line-height: 24px;
+	font-size: 16px
+}
+.hetong>div{
+	margin: 30px auto
+}
+.hetong strong{
+	font-size: 12px;
+	line-height: 30px;
+	padding-top: 30px;
+}
+.hetong .hetongTxt{
+	margin: 0 auto;
+	font-size: 14px;
+}
