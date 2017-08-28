@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import logo from './logo.png'
-import banjia from './banjia.jpg'
+
 import banner1 from './1.jpg'
 import banner2 from './2.jpg'
 import banner3 from './3.jpg'
@@ -13,6 +13,8 @@ import { Carousel } from 'antd'
 import ShowPic from '../ShowPic/ShowPic'
 import Paomadeng from '../paomadeng/Paomadeng.js'
 import Serve from '../Serve/Serve'
+import Ten from '../Ten/Ten'
+import Footer from '../Footer/Footer'
 
 class Home extends React.Component{
   render(){
@@ -43,6 +45,7 @@ class Home extends React.Component{
 			</Carousel>
         </div>
         <Serve />
+        <Ten />
         <ShowPic />
         <div className='intro-wrap'>
         	<div className='intro'>
@@ -79,6 +82,7 @@ class Home extends React.Component{
         		<Paomadeng />
         	</div>
         </div>
+        <Footer />
       </div>    
     )
   }
