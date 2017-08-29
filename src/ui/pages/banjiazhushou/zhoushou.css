@@ -1,11 +1,18 @@
-.ant-tabs-content{
-	height: 100vh;
+.twoShow{
+	width: 80%;
+	margin: 0 auto;
 	border: 1px solid red;
 }
-.hetong{
+/*.ant-tabs-content{
+	height: 100vh;
+
+}*/
+.ant-tabs-tabpane>div{
 	width: 60%;
 	margin: 0 auto;
+	margin-top: 50px;
 }
+
 .hetong h1{
 	text-align: center;
 	line-height: 100px;
@@ -28,4 +35,31 @@
 .hetong .hetongTxt{
 	margin: 0 auto;
 	font-size: 14px;
+}
+
+
+.xuzhi h1{
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+.xuzhi>p{
+	font-size: 14px;
+	line-height: 30px;
+}
+.xuzhi>p strong{
+	padding-right: 5px;
+}
+
+.yuyue>p{
+	line-height: 40px;
+	font-size: 18px;
+}
+.yuyueF{
+	padding-top: 50px;
+}
+
+
+.carShow>p{
+	font-size: 14px;
+	line-height: 30px;
 }
