@@ -75,7 +75,10 @@
 .box{
 	margin: 0;
 }
-.box li{
+.box li,.box1 li{
 	line-height: 30px;
 	text-indent: 30px;
+}
+.box1{
+	margin-top: 20px;
 }

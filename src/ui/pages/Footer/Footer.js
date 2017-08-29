@@ -94,9 +94,6 @@ const TabPane = Tabs.TabPane
 					</div>
 				</div>
 			</TabPane>
-			<TabPane tab="最新动态" key="5">
-				最新动态
-			</TabPane>
 			<TabPane tab="投诉建议" key="6">
 				<div className='lianxi'>		
 					<div>				

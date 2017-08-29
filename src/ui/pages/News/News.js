@@ -31,6 +31,16 @@
 	        	</div>
 	        	<div className='intro-tel'>
 					<h3>注意事项</h3>
+					<ul className='box1'>
+						<li>搬家当天应该注意哪些事项？</li>
+						<li>搬家过程中如遇到损坏后索赔情况</li>
+						<li>贵重家电搬运需要注意的事情</li>
+						<li>钢琴在搬运中需要注意哪些事项</li>
+						<li>雨天搬家需要注意什么</li>
+						<li>大学生搬家注意事项</li>
+						<li>搬运保险柜要注意哪些</li>
+						<li>居民搬家应注意哪些事项</li>
+					</ul>
 	        	</div>
 	        	<div className='news'>
 	        		<h3>相关新闻</h3>
