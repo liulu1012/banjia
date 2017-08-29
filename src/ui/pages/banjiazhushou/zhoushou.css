@@ -1,12 +1,9 @@
 .twoShow{
 	width: 80%;
 	margin: 0 auto;
-	border: 1px solid red;
+	height: 1000px;
+	border: 1px solid #ccc;
 }
-/*.ant-tabs-content{
-	height: 100vh;
-
-}*/
 .ant-tabs-tabpane>div{
 	width: 60%;
 	margin: 0 auto;

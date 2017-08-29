@@ -9,7 +9,7 @@
 }
 .user{
 	width: 25%;
-	border:1px solid red;
+	border:1px solid #ccc;
 }
 .user>h3,.news>h3,.intro-tel>h3{
 	font-size: 16px;
@@ -33,17 +33,49 @@
 	font-size: 14px;
 	line-height: 30px;
 }
+.intro-nav>ul>li a{
+	color: gray;
+}
 
 .intro-tel{
 	width: 25%;
-	border: 1px solid red;
+	border: 1px solid #ccc;
 }
 .news{
 	width: 45%;
-	border: 1px solid blue;
+	border: 1px solid #ccc;
 }
 
 .car{
-	border: 1px solid red;
 	margin-top: 30px;
+}
+
+
+
+@keyframes moveup{
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+.box{
+	animation: moveup 20s linear infinite;
+}
+.page{
+	overflow: hidden;
+}
+
+
+.page{
+	margin-top: 20px;
+	height: 240px;
+}
+.box{
+	margin: 0;
+}
+.box li{
+	line-height: 30px;
+	text-indent: 30px;
 }

@@ -26,12 +26,14 @@
 }
 .car>h1{
   padding-top: 30px;
+  color: gray;
 }
 .car>h3{
   line-height: 40px;
   margin-bottom: 20px;
   font-style:oblique;
   font-size: 14px;
+  color: gray;
 }
 
 

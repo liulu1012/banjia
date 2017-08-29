@@ -14,7 +14,7 @@ const TabPane = Tabs.TabPane
   render(){
     return (
       <div className='footer'>
-        <div className='footer-bottom'>
+        <div className='footer-bottom' id='fvh'>
 		<Tabs defaultActiveKey="1" onChange={this.callback} tabBarStyle={{border:'0px',color:'white'}}>
 			<TabPane tab="关于我们" key="1">
 				<div className='guanyu'>
