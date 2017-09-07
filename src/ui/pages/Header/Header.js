@@ -1,15 +1,17 @@
 import React from 'react'
-import logo from './logo.png'
+
+
+import './header.css'
 
 class Header extends React.Component{
 render(){
 return (
 	<div className='home-top'>
 		<div className='logo'>
-			<img src={logo} />
+			<img src='http://ovj2zrj7v.bkt.clouddn.com/logo.png' alt='logo' />
 		</div>
 		<div className='tel'>
-			11111111
+			18630368555
 		</div>
 	</div>   
 )

@@ -3,8 +3,6 @@
 
   import { Row,Col,Tabs }from 'antd'
 
-  import mengqu from './mengqu.jpg'
-  import yiqu from './yiqu.png'
 
 const TabPane = Tabs.TabPane	
   class Footer extends React.Component{
@@ -34,8 +32,8 @@ const TabPane = Tabs.TabPane
 				<div className='lianxi'>		
 					<div>				
 						<p>		
-							<i className="footerIcon fIcon">&#xe643;</i>
-							<span className='txt'>400-0000-0000</span>
+							<i className="footerIcon fIcon">&#xe600;</i>
+							<span className='txt'>0335-3377789</span>
 						</p>
 						<p>				
 							<i className="footerIcon fIcon">&#xe7c1;</i>
@@ -46,11 +44,11 @@ const TabPane = Tabs.TabPane
 						<h2>关注本公司微信公众号</h2>
 						<div className='footerImg'>
 							<div>			
-								<img src={mengqu} alt="mengqu" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/mengqu.jpg' alt="mengqu" />
 								<h4>萌趣咨询</h4>
 							</div>
 							<div>						
-								<img src={yiqu} alt="yiqu" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/yiqu.png' alt="yiqu" />
 								<h4>生活逸趣</h4>
 							</div>
 						</div>
@@ -71,8 +69,8 @@ const TabPane = Tabs.TabPane
 				<div className='lianxi'>		
 					<div>				
 						<p>		
-							<i className="footerIcon fIcon">&#xe643;</i>
-							<span className='txt'>400-0000-0000</span>
+							<i className="footerIcon fIcon">&#xe600;</i>
+							<span className='txt'>0335-3377789</span>
 						</p>
 						<p>				
 							<i className="footerIcon fIcon">&#xe7c1;</i>
@@ -83,11 +81,11 @@ const TabPane = Tabs.TabPane
 						<h2>关注本公司微信公众号</h2>
 						<div className='footerImg'>
 							<div>			
-								<img src={mengqu} alt="mengqu" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/mengqu.jpg' alt="mengqu" />
 								<h4>萌趣咨询</h4>
 							</div>
 							<div>						
-								<img src={yiqu} alt="yiqu" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/yiqu.png' alt="yiqu" />
 								<h4>生活逸趣</h4>
 							</div>
 						</div>
@@ -98,8 +96,8 @@ const TabPane = Tabs.TabPane
 				<div className='lianxi'>		
 					<div>				
 						<p>		
-							<i className="footerIcon fIcon">&#xe643;</i>
-							<span className='txt'>400-0000-0000</span>
+							<i className="footerIcon fIcon">&#xe600;</i>
+							<span className='txt'>0335-3377789</span>
 						</p>
 						<p>				
 							<i className="footerIcon fIcon">&#xe7c1;</i>
@@ -110,11 +108,11 @@ const TabPane = Tabs.TabPane
 						<h2>关注本公司微信公众号</h2>
 						<div className='footerImg'>
 							<div>			
-								<img src={mengqu} alt="mengqu" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/mengqu.jpg' alt="mengqu" />
 								<h4>萌趣咨询</h4>
 							</div>
 							<div>						
-								<img src={yiqu} alt="yiqu" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/yiqu.png' alt="yiqu" />
 								<h4>生活逸趣</h4>
 							</div>
 						</div>

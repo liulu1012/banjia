@@ -24,8 +24,8 @@
 }
 .tenTop>img,.tenBotm>img{
 	display: block;
-	width: 300px;
-	height: 150px;
+	width: 20%;
+	height: 8%;
 	margin-left: 20px;
 	border: 1px solid #ccc;
 }

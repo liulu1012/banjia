@@ -1,5 +1,5 @@
 .footer{
-	background-image: url('./footer-bg.png');
+	background-image: url('http://ovj2zrj7v.bkt.clouddn.com/footer-bg.png');
 	margin-top: 50px;
 }
 .footer-bottom{
@@ -30,15 +30,15 @@
 
 
 @font-face {
-  font-family: 'footer';
-  src: url('iconfont.eot');
-  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
-  url('iconfont.woff') format('woff'),
-  url('iconfont.ttf') format('truetype'),
-  url('iconfont.svg#iconfont') format('svg');
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_401952_ow4du5u1w8my4x6r.eot');
+  src: url('//at.alicdn.com/t/font_401952_ow4du5u1w8my4x6r.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_401952_ow4du5u1w8my4x6r.woff') format('woff'),
+  url('//at.alicdn.com/t/font_401952_ow4du5u1w8my4x6r.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_401952_ow4du5u1w8my4x6r.svg#iconfont') format('svg');
 }
 .footerIcon{
-  font-family:"footer" !important;
+  font-family:"iconfont" !important;
   font-size:16px;font-style:normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;

@@ -22,12 +22,12 @@
 	font-style:oblique
 }
 @font-face {
-  font-family: 'iconfont';
-  src: url('./iconfont.eot');
-  src: url('./iconfont.eot?#iefix') format('embedded-opentype'),
-  url('./iconfont.woff') format('woff'),
-  url('./iconfont.ttf') format('truetype'),
-  url('./iconfont.svg#iconfont') format('svg');
+  font-family: 'iconfont'; 
+  src: url('//at.alicdn.com/t/font_401952_ow4du5u1w8my4x6r.eot');
+  src: url('//at.alicdn.com/t/font_401952_ow4du5u1w8my4x6r.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_401952_ow4du5u1w8my4x6r.woff') format('woff'),
+  url('//at.alicdn.com/t/font_401952_ow4du5u1w8my4x6r.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_401952_ow4du5u1w8my4x6r.svg#iconfont') format('svg');
 }
 .iconfont{
   font-family:"iconfont" !important;

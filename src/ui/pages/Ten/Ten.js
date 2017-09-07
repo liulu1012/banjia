@@ -1,5 +1,4 @@
 import React from 'react'
-import banjia from './banjia.jpg'
 import './ten.css'
 
 class Ten extends React.Component{
@@ -12,18 +11,18 @@ class Ten extends React.Component{
 			        	</div>
 			        	<div className='tenPic'>
 							<div className='tenTop'>
-								<img src={banjia} alt="" />
-								<img src={banjia} alt="" />
-								<img src={banjia} alt="" />
-								<img src={banjia} alt="" />
-								<img src={banjia} alt="" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/ten.jpg' alt="" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/ten.jpg' alt="" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/ten.jpg' alt="" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/ten.jpg' alt="" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/ten.jpg' alt="" />
 							</div>
 							<div className='tenBotm'>
-								<img src={banjia} alt="" />
-								<img src={banjia} alt="" />
-								<img src={banjia} alt="" />
-								<img src={banjia} alt="" />
-								<img src={banjia} alt="" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/ten.jpg' alt="" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/ten.jpg' alt="" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/ten.jpg' alt="" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/ten.jpg' alt="" />
+								<img src='http://ovj2zrj7v.bkt.clouddn.com/ten.jpg' alt="" />
 							</div>
 			        	</div>
         			</div>

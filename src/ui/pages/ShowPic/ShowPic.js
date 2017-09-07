@@ -3,10 +3,7 @@ import './showPic.css'
 
 import { Row,Col }from 'antd'
 
-import show1 from './1.jpg'
-import show2 from './2.jpg'
-import show3 from './3.jpg'
-import show4 from './4.jpg'
+
 
 class ShowPic extends React.Component{
 	render(){
@@ -17,22 +14,22 @@ class ShowPic extends React.Component{
 					<Row type="flex" justify="space-between">
 						<Col span={6}>
 							<div className='show'>
-		    					<img src={show1} alt="" />
+		    					<img src='http://ovj2zrj7v.bkt.clouddn.com/show1%20%281%29.jpg' alt="" />
 		    				</div>
 						</Col>
 						<Col span={6}>
 							<div className='show'>
-	        					<img src={show2} alt="" />
+	        					<img src='http://ovj2zrj7v.bkt.clouddn.com/show1%20%282%29.jpg' alt="" />
 	        				</div>
 						</Col>
 						<Col span={6}>
 							<div className='show'>
-	        					<img src={show3} alt="" />
+	        					<img src='http://ovj2zrj7v.bkt.clouddn.com/show1%20%283%29.jpg' alt="" />
 	        				</div>
 						</Col>
 						<Col span={6}>
 							<div className='show'>
-	        					<img src={show4} alt="" />
+	        					<img src='http://ovj2zrj7v.bkt.clouddn.com/show1%20%284%29.jpg' alt="" />
 	        				</div>
 						</Col>
 					</Row>
